@@ -10,12 +10,12 @@ function App() {
   const [counter, setCounter] = React.useState(0);
   return (
     <Provider store={Store}>
-      {/* <div className="App">
+      <div className="App">
         <CounterInput setCounter={setCounter} counter={counter}/>
         <br/>
         <CounterOutput counter={counter}/>
-      </div> */}
-      <AddTodo/>
+      </div>
+      {/* <AddTodo/> */}
     </Provider>
   );
 }

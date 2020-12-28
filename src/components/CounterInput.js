@@ -1,6 +1,8 @@
 import React from 'react'
 import {useDispatch} from "react-redux";
-import {inc, dec} from '../store/action/CounterAction'
+// import {inc, dec} from '../store/action/CounterAction'
+
+import {inc, dec} from '../store/CounterSlice' // REDUX TOOLKIT WITH SLICE
 
 function CounterInput() {
     const dispatch = useDispatch();
